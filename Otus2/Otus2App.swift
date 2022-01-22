@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import Navigation
 
 @main
 struct Otus2App: App {
+
+    init() {
+        Configurator.shared.register()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationContainerView(transition: .none, content: {
+                ContentView()
+            })
         }
     }
 }

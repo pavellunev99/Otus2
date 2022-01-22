@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3461D5FB2794B116009E3B9A /* NewsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461D5FA2794B116009E3B9A /* NewsScreen.swift */; };
+		3461D5FD2794B1D4009E3B9A /* Navigation in Frameworks */ = {isa = PBXBuildFile; productRef = 3461D5FC2794B1D4009E3B9A /* Navigation */; };
+		3461D6012794B537009E3B9A /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461D6002794B537009E3B9A /* NewsViewModel.swift */; };
+		3461D6032794B5DA009E3B9A /* LoadingIndicatorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461D6022794B5DA009E3B9A /* LoadingIndicatorModifier.swift */; };
+		3461D6052794B613009E3B9A /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461D6042794B613009E3B9A /* Array.swift */; };
+		3461D60B2794B6C2009E3B9A /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461D60A2794B6C2009E3B9A /* Configurator.swift */; };
+		3461D60D2794B787009E3B9A /* DataStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3461D60C2794B787009E3B9A /* DataStorage */; };
+		3461D60F2794B78A009E3B9A /* ServiceLocator in Frameworks */ = {isa = PBXBuildFile; productRef = 3461D60E2794B78A009E3B9A /* ServiceLocator */; };
+		3461D6112794B9B9009E3B9A /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461D6102794B9B9009E3B9A /* LazyView.swift */; };
+		3461D6132794BA9B009E3B9A /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461D6122794BA9B009E3B9A /* ContentViewModel.swift */; };
 		34BD9167278D9072001E1D4C /* Otus2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD9166278D9072001E1D4C /* Otus2App.swift */; };
 		34BD9169278D9072001E1D4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD9168278D9072001E1D4C /* ContentView.swift */; };
 		34BD916B278D9074001E1D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BD916A278D9074001E1D4C /* Assets.xcassets */; };
 		34BD916E278D9074001E1D4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BD916D278D9074001E1D4C /* Preview Assets.xcassets */; };
+		34BFFE522796010A00FE2C8F /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = 34BFFE512796010A00FE2C8F /* Network */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3461D5F82794AF60009E3B9A /* Navigation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Navigation; sourceTree = "<group>"; };
+		3461D5FA2794B116009E3B9A /* NewsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsScreen.swift; sourceTree = "<group>"; };
+		3461D5FE2794B3D8009E3B9A /* ServiceLocator */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ServiceLocator; sourceTree = "<group>"; };
+		3461D5FF2794B49C009E3B9A /* DataStorage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DataStorage; sourceTree = "<group>"; };
+		3461D6002794B537009E3B9A /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		3461D6022794B5DA009E3B9A /* LoadingIndicatorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorModifier.swift; sourceTree = "<group>"; };
+		3461D6042794B613009E3B9A /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		3461D60A2794B6C2009E3B9A /* Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
+		3461D6102794B9B9009E3B9A /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
+		3461D6122794BA9B009E3B9A /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		34BD9163278D9072001E1D4C /* Otus2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otus2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BD9166278D9072001E1D4C /* Otus2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otus2App.swift; sourceTree = "<group>"; };
 		34BD9168278D9072001E1D4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34BD916A278D9074001E1D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34BD916D278D9074001E1D4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34BFFE502796010100FE2C8F /* Network */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Network; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +48,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3461D5FD2794B1D4009E3B9A /* Navigation in Frameworks */,
+				34BFFE522796010A00FE2C8F /* Network in Frameworks */,
+				3461D60D2794B787009E3B9A /* DataStorage in Frameworks */,
+				3461D60F2794B78A009E3B9A /* ServiceLocator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3461D5F92794B100009E3B9A /* News */ = {
+			isa = PBXGroup;
+			children = (
+				3461D5FA2794B116009E3B9A /* NewsScreen.swift */,
+				3461D6002794B537009E3B9A /* NewsViewModel.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		3461D6072794B677009E3B9A /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				34BD9168278D9072001E1D4C /* ContentView.swift */,
+				3461D6122794BA9B009E3B9A /* ContentViewModel.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		3461D6082794B682009E3B9A /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3461D6022794B5DA009E3B9A /* LoadingIndicatorModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		3461D6092794B68F009E3B9A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3461D6042794B613009E3B9A /* Array.swift */,
+				3461D6102794B9B9009E3B9A /* LazyView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		34BD915A278D9072001E1D4C = {
 			isa = PBXGroup;
 			children = (
+				34BD9174278D9BCD001E1D4C /* Modules */,
 				34BD9165278D9072001E1D4C /* Otus2 */,
 				34BD9164278D9072001E1D4C /* Products */,
+				34BD9176278D9C11001E1D4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +114,13 @@
 		34BD9165278D9072001E1D4C /* Otus2 */ = {
 			isa = PBXGroup;
 			children = (
-				34BD9166278D9072001E1D4C /* Otus2App.swift */,
-				34BD9168278D9072001E1D4C /* ContentView.swift */,
 				34BD916A278D9074001E1D4C /* Assets.xcassets */,
+				3461D60A2794B6C2009E3B9A /* Configurator.swift */,
+				34BD9166278D9072001E1D4C /* Otus2App.swift */,
+				3461D6092794B68F009E3B9A /* Extensions */,
+				3461D6082794B682009E3B9A /* Modifiers */,
+				3461D6072794B677009E3B9A /* ContentView */,
+				3461D5F92794B100009E3B9A /* News */,
 				34BD916C278D9074001E1D4C /* Preview Content */,
 			);
 			path = Otus2;
@@ -65,6 +132,24 @@
 				34BD916D278D9074001E1D4C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34BD9174278D9BCD001E1D4C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				34BFFE502796010100FE2C8F /* Network */,
+				3461D5FF2794B49C009E3B9A /* DataStorage */,
+				3461D5FE2794B3D8009E3B9A /* ServiceLocator */,
+				3461D5F82794AF60009E3B9A /* Navigation */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		34BD9176278D9C11001E1D4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +168,12 @@
 			dependencies = (
 			);
 			name = Otus2;
+			packageProductDependencies = (
+				3461D5FC2794B1D4009E3B9A /* Navigation */,
+				3461D60C2794B787009E3B9A /* DataStorage */,
+				3461D60E2794B78A009E3B9A /* ServiceLocator */,
+				34BFFE512796010A00FE2C8F /* Network */,
+			);
 			productName = Otus2;
 			productReference = 34BD9163278D9072001E1D4C /* Otus2.app */;
 			productType = "com.apple.product-type.application";
@@ -138,7 +229,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				34BD9169278D9072001E1D4C /* ContentView.swift in Sources */,
+				3461D6032794B5DA009E3B9A /* LoadingIndicatorModifier.swift in Sources */,
 				34BD9167278D9072001E1D4C /* Otus2App.swift in Sources */,
+				3461D6052794B613009E3B9A /* Array.swift in Sources */,
+				3461D6112794B9B9009E3B9A /* LazyView.swift in Sources */,
+				3461D6132794BA9B009E3B9A /* ContentViewModel.swift in Sources */,
+				3461D60B2794B6C2009E3B9A /* Configurator.swift in Sources */,
+				3461D5FB2794B116009E3B9A /* NewsScreen.swift in Sources */,
+				3461D6012794B537009E3B9A /* NewsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +439,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3461D5FC2794B1D4009E3B9A /* Navigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Navigation;
+		};
+		3461D60C2794B787009E3B9A /* DataStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DataStorage;
+		};
+		3461D60E2794B78A009E3B9A /* ServiceLocator */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ServiceLocator;
+		};
+		34BFFE512796010A00FE2C8F /* Network */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Network;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 34BD915B278D9072001E1D4C /* Project object */;
 }
