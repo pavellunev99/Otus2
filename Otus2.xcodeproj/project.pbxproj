@@ -25,10 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3461D5F82794AF60009E3B9A /* Navigation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Navigation; sourceTree = "<group>"; };
 		3461D5FA2794B116009E3B9A /* NewsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsScreen.swift; sourceTree = "<group>"; };
-		3461D5FE2794B3D8009E3B9A /* ServiceLocator */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ServiceLocator; sourceTree = "<group>"; };
-		3461D5FF2794B49C009E3B9A /* DataStorage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DataStorage; sourceTree = "<group>"; };
 		3461D6002794B537009E3B9A /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		3461D6022794B5DA009E3B9A /* LoadingIndicatorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorModifier.swift; sourceTree = "<group>"; };
 		3461D6042794B613009E3B9A /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
@@ -40,7 +37,6 @@
 		34BD9168278D9072001E1D4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34BD916A278D9074001E1D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34BD916D278D9074001E1D4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		34BFFE502796010100FE2C8F /* Network */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Network; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +92,6 @@
 		34BD915A278D9072001E1D4C = {
 			isa = PBXGroup;
 			children = (
-				34BD9174278D9BCD001E1D4C /* Modules */,
 				34BD9165278D9072001E1D4C /* Otus2 */,
 				34BD9164278D9072001E1D4C /* Products */,
 				34BD9176278D9C11001E1D4C /* Frameworks */,
@@ -132,17 +127,6 @@
 				34BD916D278D9074001E1D4C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		34BD9174278D9BCD001E1D4C /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				34BFFE502796010100FE2C8F /* Network */,
-				3461D5FF2794B49C009E3B9A /* DataStorage */,
-				3461D5FE2794B3D8009E3B9A /* ServiceLocator */,
-				3461D5F82794AF60009E3B9A /* Navigation */,
-			);
-			path = Modules;
 			sourceTree = "<group>";
 		};
 		34BD9176278D9C11001E1D4C /* Frameworks */ = {
@@ -202,6 +186,12 @@
 				Base,
 			);
 			mainGroup = 34BD915A278D9072001E1D4C;
+			packageReferences = (
+				34248F1B279CB70600A6464E /* XCRemoteSwiftPackageReference "DataStorageModule" */,
+				34248F1C279CB71700A6464E /* XCRemoteSwiftPackageReference "NavigationModule" */,
+				34248F1D279CB72E00A6464E /* XCRemoteSwiftPackageReference "NetworkModule" */,
+				34248F1E279CB74100A6464E /* XCRemoteSwiftPackageReference "ServiceLocatorModule" */,
+			);
 			productRefGroup = 34BD9164278D9072001E1D4C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -439,6 +429,41 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34248F1B279CB70600A6464E /* XCRemoteSwiftPackageReference "DataStorageModule" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pavellunev99/DataStorageModule";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		34248F1C279CB71700A6464E /* XCRemoteSwiftPackageReference "NavigationModule" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pavellunev99/NavigationModule";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		34248F1D279CB72E00A6464E /* XCRemoteSwiftPackageReference "NetworkModule" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pavellunev99/NetworkModule";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		34248F1E279CB74100A6464E /* XCRemoteSwiftPackageReference "ServiceLocatorModule" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pavellunev99/ServiceLocatorModule";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		3461D5FC2794B1D4009E3B9A /* Navigation */ = {

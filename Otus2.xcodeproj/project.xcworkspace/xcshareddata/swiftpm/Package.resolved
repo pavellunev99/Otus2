@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DataStorage",
+        "repositoryURL": "https://github.com/pavellunev99/DataStorageModule",
+        "state": {
+          "branch": "main",
+          "revision": "6ec8b91babef7de21d6da37e8f9d5bddce325bb8",
+          "version": null
+        }
+      },
+      {
+        "package": "Navigation",
+        "repositoryURL": "https://github.com/pavellunev99/NavigationModule",
+        "state": {
+          "branch": "main",
+          "revision": "884c9c0bcf3281033d106b3ddfabd14cdcb668d9",
+          "version": null
+        }
+      },
+      {
+        "package": "Network",
+        "repositoryURL": "https://github.com/pavellunev99/NetworkModule",
+        "state": {
+          "branch": "main",
+          "revision": "77d13fb769f8c1c78d0c6cfc6ca5d01de9345ab6",
+          "version": null
+        }
+      },
+      {
+        "package": "ServiceLocator",
+        "repositoryURL": "https://github.com/pavellunev99/ServiceLocatorModule",
+        "state": {
+          "branch": "main",
+          "revision": "74467b79bbf4b948dea8a774b70e71c65fcaaf2a",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
